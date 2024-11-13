@@ -1,228 +1,88 @@
-<div align="center">
-
-![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/dessalines/thumb-key.svg)
-[![status-badge](https://woodpecker.join-lemmy.org/api/badges/dessalines/thumb-key/status.svg)](https://woodpecker.join-lemmy.org/dessalines/thumb-key)
-[![GitHub issues](https://img.shields.io/github/issues-raw/dessalines/thumb-key.svg)](https://github.com/dessalines/thumb-key/issues)
-[![License](https://img.shields.io/github/license/dessalines/thumb-key.svg)](LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/dessalines/thumb-key?style=social)
-
-</div>
-
-<p align="center">
-  <a href="https://github.com/dessalines/thumb-key" rel="noopener">
-    <img width=200px height=200px src="https://raw.githubusercontent.com/dessalines/thumb-key/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" alt="phone_screen" />
-  </a>
-
- <h3 align="center"><a href="https://github.com/dessalines/thumb-key">Thumb-Key</a></h3>
-  <p align="center">
-    A privacy-conscious keyboard made for your thumbs
-    <br />
-    <br />
-    <a href="https://github.com/dessalines/thumb-key/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/dessalines/thumb-key/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/dessalines/thumb-key/releases">Releases</a>
-  </p>
-  <p align="center">
-    <a href="https://apt.izzysoft.de/fdroid/index/apk/com.dessalines.thumbkey"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="80"></a>
-    <a href="https://f-droid.org/packages/com.dessalines.thumbkey"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80"></a>
-    <a href="https://play.google.com/store/apps/details?id=com.dessalines.thumbkey"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" height="80"></a>
-    <a href="https://github.com/dessalines/thumb-key/releases/latest"><img src="https://raw.githubusercontent.com/andOTP/andOTP/master/assets/badges/get-it-on-github.png" height="80"></a>
-  </p>
-</p>
-
-<!-- prettier-ignore-start -->
-
-<!-- toc -->
-
-- [About Thumb-Key](#about-thumb-key)
-  * [Features](#features)
-- [User Guide](#user-guide)
-  * [Emoji Key](#emoji-key)
-  * [Symbols / Letters Key](#symbols--letters-key)
-  * [Slide gestures](#slide-gestures)
-  * [Drag-and-return](#drag-and-return)
-  * [Ghost keys](#ghost-keys)
-  * [Coming from MessagEase Keyboard Tips](#coming-from-messagease-keyboard-tips)
-  * [Other](#other)
-- [Thumb-Key Design](#thumb-key-design)
-  * [A History of Phone Keyboards](#a-history-of-phone-keyboards)
-    + [When phone keyboards became Keyloggers](#when-phone-keyboards-became-keyloggers)
-    + [MessagEase](#messagease)
-  * [Thumb-Key Letter Positions](#thumb-key-letter-positions)
-  * [Built With](#built-with)
-- [Installation / Releases](#installation--releases)
-- [Contributing](#contributing)
-- [Support / Donate](#support--donate)
-  * [Crypto](#crypto)
-- [Social / Contact](#social--contact)
-- [Android IME Resources](#android-ime-resources)
+It will be quite some time before I get around to this project.
+I haven't done any computer programming in a number of years, but when I did, I did it for a very long time every day.
+I had to quit computer programming cold turkey because it was interfering with my life.
+But with that said, I never developed for Android or used Kotlin. So I have to learn that first.
+Being that I have experience with other languages, I figure I could dive head first, start with this forked project, and just modify a few things to come out with my original idea from years ago.
 
-<!-- tocstop -->
+Have you ever analyzed the psychology of your own self when you're typing with your thumbs?
+Have you ever noticed how you will use your left thumb for both sides of the keyboard and your right thumb for both sides of the keyboard Back and forth?
+Example, your left thumb will press somewhere on the left side of the keyboard, Then for the next consecutive key, your left thumb will press somewhere on the right side of the keyboard. And then for the next consecutive key, your right thumb will press somewhere on the left side of the keyboard, for example, Just visualize that for a moment. You realize we do this all the time, correct? Do you know the reason? Have you ever thought about it or questioned it?
 
-<!-- prettier-ignore-end -->
+The reason is, If you could speak an entire book in one second, why wouldn't you? We want to communicate as fast as possible, aka type as fast as possible.
+Obviously, your own brain knows the physical layout of your own body.
+Your subconscious is realizing the flow and rhythm of your typing and that physically doing that is faster.
+So here is a solution.
 
-## About Thumb-Key
 
-Thumb-Key is a _privacy-conscious_ smart keyboard, made specifically for your thumbs.
+My design idea is there are two boxes, a little ways spaced apart, and each box has a three by three grid inside.
+The main absolute primary objective of this keyboard is to make it so that you never consecutively press your left thumb twice or your right thumb twice.
+You will ALWAYS 100% of the time always alternate using your left thumb and right thumb for every individual key press.
 
-It features a **3x3 grid layout**, and uses swipes for the less common letters. Its easy to learn, and designed for fast typing speeds.
+I only know English, so I will only be able to do this for English.
+But I'm going to have to build a database to start with.
+Running a few algorithms on every individual word in the English language individually
+and then process every sentence and paragraph of the dictionary and encyclopedia and scour the internet for countless articles
+What words tend to follow words?
+What words tend to follow previous words with certain groupings?
+What are all of the words that would ever start an individual sentence or a paragraph?
+What are all of the words that would begin the response of a question?
+Just really, really digging into the English language.
+I probably didn't word that the best way, but basically getting extremely predictive.
 
-Instead of relying on profit-driven, privacy-offending word and sentence prediction for accuracy, as do most popular phone keyboards like Gboard and Swiftkey, Thumb-Key uses **large keys with predictable positions**, to prevent your eyes from [hunting and pecking](https://www.keyboardingonline.com/hunting-and-pecking/) for letters.
+If I get the algorithm perfect, without any personal individual predictiveness.
+Just only predictiveness based on the English language.
+Then you could take two completely different people running my keyboard who have enough experience on it to quote unquote have mastered it so they're never stumbling while typing everything just flows smoothly.
+And then they could trade phones/tablets.
+and keep on typing away without noticing a single thing different. No stumbling.
 
-As the key positions get ingrained into your muscle memory, eventually you'll be able to approximate the fast speeds of [touch-typing](https://en.m.wikipedia.org/wiki/Touch_typing), your eyes never having to leave the text edit area.
+As of now, I would like to point out the hundredth monkey experiment. 
 
-This project is a follow-up to the now unmaintained (and closed-source) [MessagEase Keyboard](https://www.exideas.com/ME/), which is its main inspiration.
+With that said, if I include a feature where the keyboard learns from the individual user to get even more predictive, then you would not benefit from the effect of the hundredth monkey experiment.
 
-### Features
+So not having that feature, meaning the keyboard cannot learn from the individual user. If you are the very first person to run my keyboard, it will take you however long it takes to learn it, very likely quite some time.. But if you are the hundredth or thousandth person to run my keyboard, believe it or not, you will learn it quicker.
 
-- Highly configurable.
-- Customizeable sizing, ThumbKey and MessagEase layouts, dynamic / Material v3 themes, animations, haptic feedback, and audio feedback.
-- Open-source, [AGPL License](/LICENSE).
+So, with that stated, I question, should I add the feature to learn from the individual user in such a way that does not hurt privacy?
 
-## User Guide
+The reason I go in depth to say all that, from someone looking over your shoulder, not knowing what is going on, this keyboard is going to look extremely wild to them.
 
-- **Tap**, or **swipe** to type a letter.
-- **Swipe up** or **down** on `A` to capitalize. (If you changed the layout, the button next to `#`)  
-  <img width=60px height=60px src="https://i.postimg.cc/Znt2Ft9G/thumbkey-1-1.png">
-- **Double tap** the space bar to type a comma, triple tap to type a period. More taps have more punctuation.
-- **Swipe left** or **long press** on the backspace key to delete whole words to the left of the cursor.
-- **Swipe right** on the backspace key to delete whole words to the right of the cursor.
-- **Swipe left** or **right** on the spacebar to move the cursor by 1 character.
-- **Long press** the return key to insert a line break
+Your brain will catch on because the wildness will be static, always the same for each individual unique instance.
 
-### Emoji Key
+So if I incorporated the feature to adapt the keyboard to each individual person let's just say you take a month and you master it and someone else is running the keyboard on their phone and you go to type on their phone it is seriously going to hinder slow you down very likely.
 
-- **Tap** to access the emoji picker.
-- **Swipe up** to configure Thumb-key.
-- **Swipe right** to change keyboard position.
-- **Swipe down** to access IME switcher (switch between Thumb-key and other keyboards).
-- **Swipe left** to cycle between selected layouts (languages).
-- **Swipe to bottom-left** to toggle voice input. Requires [FUTO Voice Input](https://play.google.com/store/apps/details?id=org.futo.voiceinput).
+So I likely won't include that feature, but what is everyone's opinion on that?
 
-### Symbols / Letters Key
+But based off of the predictiveness
+For whatever thumb you are currently under for the next consecutive character,
+The letter with the highest percentage of predictability will be in the center of the grid where the thumb will mostly be.
+and the letter with the least percentage of predictability of the top nine, will be in the bottom corner where the thumb curls in more tightly. AKA more stressful on the thumb being not extended.
+With that stated, you can guess how the rest of the characters will be laid out.
+It's all about comfort.
 
-- **Tap** to access numbers & symbols. **Tap again** to return to letters.
-- **Swipe to top-left** to select all.
-- **Swipe up** to copy - If nothing is selected, all the text will be copied.
-- **Swipe to top-right** to cut - If nothing is selected, all the text will be selected and cut.
-- **Swipe right** to redo.
-- **Swipe down** to paste.
-- **Swipe left** to undo.
+Something to take note of. With the predictability in junction with dictionaries, there will be many, many opportunities of typing where your left and right thumbs are just back and forth over the dead center of each grid, many consecutive times to finish out a word.
 
-### Slide gestures
+A side benefit to this keyboard is it potentially could help you learn to spell words you're not that good at.
 
-Enabling `Slide gestures` in keyboard settings will enable the following continuous sliding gestures:
+One feature I thought about so you don't have to move your thumbs out of the way of the grid and then back over to the grid as in hunting and packing is To mirror the grids so they are identical from left to right.
+Maybe that would help on the 100% removal of your thumb outside of the grid while hunting and packing. What are y'all's opinions on that feature? AND If the next nine predicted characters are not what you want for the thumb's turn that you're under, then do an additional tap and hold of the thumb you just used. And it will not matter where the consecutive use of the same thumb lands, that press will not take. What will happen is the Grid for the following thumb that should have been used will change to the next highest nine predicted characters.
+AND If those nine characters are not what you want, While the thumb with the consecutive use is still pressing on the screen, give it a little bit of a slide in any direction, and the grid under the thumb that should have been used will populate with the last 8 of 26 alphabet characters.
 
-- Slide spacebar horizontally to move cursor position left and right.
-- Slide upwards while sliding the spacebar to select text.
-- Slide backspace to the left to select text to be deleted. Text will be deleted when key is released.
+So worst case scenario is you're alternating back and forth fluently and then you run into a situation of the appropriate thumb ((with the design of this keyboard)) does not have the character that you want.
+Then you would do a consecutive press and hold anywhere inside of the grid of the previous thumb (making an undesirable consecutive use). The appropriate grid will populate with the next nine, and if that is not what you want, while the other thumb is still holding, give a little bit of a slide (in any direction?).
+9 plus 9 plus 8 is 26, so that covers everything in regards to the alphabet.
 
-Enabling `Spacebar: Allow normal swipes to work with slide gestures`, in keyboard settings will enable the following:
+There could also be a feature while you are typing flawlessly. Instead of an individual tap, it would be an individual tap with a sliding motion in any of the four and or eight directions for period, comma, enter/new line, capitalization, etc.. 
 
-- Swipe left and right to move the cursor by a single character.
-- Swipe up and down to move the cursor up or down a line.
-- Allow us to use the other characters on the spacebars in the typesplit layouts.
+And another feature could be having both of your thumbs touch the screen at the same time, far apart or close together, and swipe up at the same time, could load an original keyboard, Dvorak included lol
 
-Enabling `Backspace: Allow normal swipes to work with slide gestures`, in keyboard settings will enable the following:
+There are all kinds of little features I've thought of. I just got to take the time to remember them all.
 
-- Swipe left to delete whole words to the left of the cursor.
-- Swipe right to delete whole words to the right of the cursor.
+If you wouldn't mind being a one-on-one tutor teaching me the environment for writing APK applications for Android along with the Kotlin or whatever alternative can be used for Android.
+Basically kick-starting me off with enough knowledge just for a keyboard, nothing much else. That way I can finish off this project before fully knowing the entire language.
+Or If you have any feature ideas to add to the keyboard
+Then give me an email.
+davidprock@icloud.com 
+This is an email I don't use for much of anything, so it might be a bit before I get to you.
+I am not too familiar with GitHub, but if you have a way to message me on GitHub and GitHub notifies me, then we can chat on GitHub.
 
-### Drag-and-return
 
-- You can type the opposite-case letter by dragging away from, then back to the original key.
-- Clockwise and counter-clockwise drags can be configured to type the opposite-case letter, or the equivalent center key on the numeric layout.
-
-### Ghost keys
-
-Enabling `Ghost keys` in keyboard settings will enable swiping hidden symbol keys without switching to the numeric layout.
-
-### Coming from MessagEase Keyboard Tips
-
-- For those use to tapping on the hand key to hide the MessagEase Keyboard and make more screen real estate available, this can be done by using the Android back key or on Android 10 and higher using the guesture navigation for back.
-
-### Other
-
-- Practice typing, and check your words per minute, using [monkeytype.com](https://monkeytype.com)
-
-## Thumb-Key Design
-
-### A History of Phone Keyboards
-
-Physical keyboards, with the full-size _QWERTY_ layout, **were not designed for use on small devices like phones**; they were designed specifically for 10 fingers resting on a keybed, sitting on a secure surface.
-Phones must be held with the fore-fingers and palm, or held with one hand and typed with the other, leaving only 1 or 2 thumbs (as opposed to 10 fingers) free to perform key-presses. As texting came into being, word prediction came to be seen as the best solution to slow input speeds.
-
-On phones that used the 9-key numeric layout, [T9 predictive text](<https://en.m.wikipedia.org/wiki/T9_(predictive_text)>) was used. Other phones used the full-hand layout with the familiar _QWERTY_ layout, with other proprietary predictive methods.
-
-#### When phone keyboards became Keyloggers
-
-As phones moved from physical buttons to soft-keyboards, key sizes became smaller and taps more imprecise and error-prone, with better predictive technology picking up the slack.
-
-Smartphone companies like Apple and Google, in an attempt to better their word prediction algorithms, as well as collect potentially profitable information on what their users were typing, began submitting and aggregating all their user's key-taps to their servers, violating user's privacy in the process. [Known as Keyloggers](https://usa.kaspersky.com/resource-center/definitions/keylogger), and seen as _universally malicious_ programs on desktop computers, these apps unfortunately became normalized and seen as a necessity on phones.
-
-The lack of innovation on phone keyboard design, is best explained by the _potential profitability_ these companies stand to gain by collecting and aggregating everything a user types; including the commodification of this data directly, or information and trends about you learned from this data, that they can sell to advertisers and 3rd parties. These could include your buying preferences, preferred websites, what you most commonly talk about with friends, and **everything you type into search bars and text boxes.**
-
-As of today, phone keyboards are in such an abysmal state of privacy, that there aren't many keyboards left that can guarantee **not to be logging all of your keystrokes.**
-
-#### MessagEase
-
-As a testament to the stunning lack of innovation on both desktop and phone keyboards, the _QWERTY_ layout from the 1880s is still the dominant layout, even on smartphones in the 21st century.
-
-One company named Exideas created a keyboard app called [MessagEase](https://www.exideas.com/ME/), which relied on the original large 9-key grid of old phones, and managed to achieve comparable fast typing speeds to other keyboards, without relying on big-data-powered word-prediction.
-
-[Much research went into MessagEase's design](https://www.exideas.com/ME/ICMI2003Paper.pdf), and many of its users can do > 50 words per minute.
-
-MessagEase is unfortunately unmaintained, and Thumb-Key uses a better alternating-thumb layout letter position (although the original MessagEase Keyboard layout is available in the settings).
-
-### Thumb-Key Letter Positions
-
-- Large keys are in a predictable 9-key grid. Eventually, you should be able to keep your eyes on the text input area, rather than hunting-and-pecking for letters, approximating touch-typing.
-- Letter positions are based on [English text letter frequency](https://en.m.wikipedia.org/wiki/Letter_frequency). The most common letters are: **ETAOINSHR**. These 9 letters alone make up ~70% of all English text.
-- First 9 letters by frequency are the 9 center key taps. The next 8 are swipes to the center. The next 8 are swipes on the center hub key. Z is last.
-- Alternate thumbs for vowels and consonants (Vowels on right side of keyboard, consonants on left). This naturally results in fast digram speeds.
-- Prioritize bottom, and right side of keyboard. So EAO should be on the right side, and bottom to top, while TNS is on the left side.
-
-### Built With
-
-- [Android Jetpack Compose](https://developer.android.com/jetpack/compose)
-
-## Installation / Releases
-
-- [Releases](https://github.com/dessalines/thumb-key/releases)
-- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/com.dessalines.thumbkey)
-- [F-Droid](https://f-droid.org/en/packages/com.dessalines.thumbkey/)
-- [Google Play](https://play.google.com/store/apps/details?id=com.dessalines.thumbkey)
-
-## Contributing
-
-See [Contributing.md](CONTRIBUTING.md) for how to add keyboard layouts, and themes.
-
-## Support / Donate
-
-Thumb-Key will always remain free, open-source software. We've seen many keyboards (and open-source projects in general) go unmaintained after a few years. **Recurring donations have proven to be the only way these projects can stay alive.**
-
-Your donations directly support full-time development, and help keep this maintained. If you find yourself using Thumb-Key every day, consider donating:
-
-- [Support me on Liberapay](https://liberapay.com/dessalines).
-- [Support me Patreon](https://www.patreon.com/dessalines).
-
-### Crypto
-
-- bitcoin: `1Hefs7miXS5ff5Ck5xvmjKjXf5242KzRtK`
-- ethereum: `0x400c96c96acbC6E7B3B43B1dc1BB446540a88A01`
-- monero: `41taVyY6e1xApqKyMVDRVxJ76sPkfZhALLTjRvVKpaAh2pBd4wv9RgYj1tSPrx8wc6iE1uWUfjtQdTmTy2FGMeChGVKPQuV`
-
-## Social / Contact
-
-- [lemmy.ml/c/thumbkey](https://lemmy.ml/c/thumbkey)
-- [Thumbkey dev chat](https://matrix.to/#/#thumbkey-dev:matrix.org)
-- [Mastodon](https://mastodon.social/@dessalines)
-
-## Android IME Resources
-
-- https://github.com/THEAccess/compose-keyboard-ime
-- https://stackoverflow.com/questions/65570024/build-software-keyboard-with-jetpack-compose-ime-input-method-with-jetpack-com
-- https://developer.android.com/develop/ui/views/touch-and-input/creating-input-method
-- https://www.answertopia.com/jetpack-compose/a-jetpack-compose-in-app-purchasing-tutorial/
+- [Android Jetpack Compose](https://developer.android.com/jetpack/compose
